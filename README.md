@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @infinyty99
+- 👀 I’m interested in Gaming, and general entertainment. 
+- 🌱 I’m currently learning Digital Media and Web technology
+- 💞️ I’m looking to collaborate on anything that interests me.
+- 📫 Reach me at my email or through PM.
