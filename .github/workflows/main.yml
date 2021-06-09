@@ -28,7 +28,7 @@ jobs:
 
       with:
 
-      app-name: 'CMST385-jcole29\$CMST385-jcole29'
+      app-name: '$CMST385-jcole29'
 
         slot-name: 'production'
 
