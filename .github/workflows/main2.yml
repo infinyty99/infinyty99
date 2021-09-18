@@ -1,0 +1,20 @@
+name: Deploy HTML Files to AppService - CMST385
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: 
+     - main
+jobs:  
+  build-and-deploy:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@main
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v1
+        with:
+      - app name: 'CMST386-jcole29'
+        slot-name:'production'
+        publish-profile: ${{secrets.AppServiceCMST386 }}
+      
